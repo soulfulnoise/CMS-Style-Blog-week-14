@@ -24,7 +24,7 @@ Blog.init(
             type:DataTypes.STRING,
         },
         body:{
-            typr:DataTypes.STRING,
+            type:DataTypes.STRING,
         },
         user_id: {
             type:DataTypes.INTEGER,
