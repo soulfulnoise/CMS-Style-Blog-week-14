@@ -1,0 +1,37 @@
+{
+  "name": "cms-style-blog-week-14",
+  "version": "1.0.0",
+  "description": "Tech Blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulfulnoise/CMS-Style-Blog-week-14.git"
+  },
+  "keywords": [
+    "["
+  ],
+  "author": "Lee Spaulding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soulfulnoise/CMS-Style-Blog-week-14/issues"
+  },
+  "homepage": "https://github.com/soulfulnoise/CMS-Style-Blog-week-14#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect": "^3.7.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "^2.1.2"
+  }
+}
