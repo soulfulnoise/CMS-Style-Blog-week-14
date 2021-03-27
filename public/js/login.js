@@ -3,8 +3,8 @@ const loginFormHandler = async (event) => {
 }
 
 // Collecting email and passwords entered in to login form
-const email = document.querySelector('#email-login').nodeValue.trim();
-const password = document.querySelector('#password-login').nodeValue.trim();
+const email = document.querySelector('#email-login').value.trim();
+const password = document.querySelector('#password-login').value.trim();
 
 if ( email && password) {
     // Send post request to the API endpoint
@@ -20,3 +20,11 @@ if ( email && password) {
     } else {
         alert(response.statusText);
     }};
+
+    const signupFormHandler = async (event) =>{
+        event.preventDefault();
+
+        const name = document.querySelector('#name-signup').value.trim();
+        const email = document.querySelector('#email-signup').value.trim();
+        const password = document.querySelector('#password-signup').value.trim();
+    }
